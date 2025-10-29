@@ -1,0 +1,29 @@
+{
+  "name": "mimedico-backend",
+  "version": "1.0.0",
+  "description": "Backend API for MiMedico Healthcare System",
+  "main": "server-cpanel.js",
+  "scripts": {
+    "start": "node server-cpanel.js",
+    "start:cpanel": "node server-cpanel.js",
+    "dev": "nodemon server-cpanel.js",
+    "db:setup": "node scripts/dbSetup.js",
+    "db:check": "node scripts/dbCheck.js",
+    "update-passwords": "node scripts/updatePasswords.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
