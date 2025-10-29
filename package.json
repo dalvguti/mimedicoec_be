@@ -4,9 +4,9 @@
   "description": "Backend API for MiMedico Healthcare System",
   "main": "server-cpanel.js",
   "scripts": {
-    "start": "node server-cpanel.js",
-    "start:cpanel": "node server-cpanel.js",
-    "dev": "nodemon server-cpanel.js",
+    "start": "node server-cpanel-3.js",
+    "start:cpanel": "node server-cpanel-3.js",
+    "dev": "nodemon server-cpanel-3.js",
     "db:setup": "node scripts/dbSetup.js",
     "db:check": "node scripts/dbCheck.js",
     "update-passwords": "node scripts/updatePasswords.js"
