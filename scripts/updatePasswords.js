@@ -1,3 +1,6 @@
+// Load environment variables first
+require('dotenv').config();
+
 const bcrypt = require('bcryptjs');
 const db = require('../config/database');
 
